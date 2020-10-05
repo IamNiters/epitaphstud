@@ -1,0 +1,47 @@
+* {
+    margin : auto;
+}
+
+
+/* ========= Navbar ========= */
+.navBar{
+    background-color: rgb(179, 179, 179);
+    min-height: 125px;
+    display: flex;
+    flex-direction: row;
+    color : blue;
+}
+
+.brandContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftNavWrap{
+    max-width: 50vw;
+}
+
+.rightNavWrap {
+    max-width: 50vw;
+}
+
+.navUlList {
+    display : flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.liNavItem{
+    padding-left: 50px;
+}
+
+
+
+
+/* ========= Navbar ========= */
+
+@media only screen and (max-width: 742px) {
+    .navBar {
+        background-color: red;
+    }
+}
